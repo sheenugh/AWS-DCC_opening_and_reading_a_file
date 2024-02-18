@@ -4,6 +4,13 @@
 
 # ========== PSEUDO CODE ==========
 # - Open Function
-# - Variable Stored
-# - Using File Function
+file = open('example.txt', 'r')
+
+# - Variable Stored 
+content = file.read()
+
+# - Printing the variable
+print(content)
+
 # - Code for file close
+file.close()
